@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "dist/src/index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "peerDependencies": {
     "react": ">=16.0.0",
     "react-dom": ">=16.0.0"
@@ -28,9 +32,6 @@
     "@types/classnames": "*",
     "@types/node": "^10.5.5",
     "@types/prop-types": "^15.5.4"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
